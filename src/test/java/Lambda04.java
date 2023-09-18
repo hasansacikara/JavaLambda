@@ -8,20 +8,20 @@ import static java.util.Arrays.stream;
 
 public class Lambda04 {
 
-    @@ -17,26 +19,175 @@ pojo class içinde : constructor, variables, getter setter, toString()
+   // pojo class içinde : constructor, variables, getter setter, toString()
     public static void main(String[] args) {
 
-        //Universite u1 = new Universite();
-        Universite u1 = new Universite("Ktu","MakineMuh",571,93);
-        Universite u2 = new Universite("Bilkent","matematik",785,65);
-        Universite u3 = new Universite("İstanbul","hukuk",1445,71);
-        Universite u4 = new Universite("Marmara","Bilgisayar",1324,78);
-        Universite u5 = new Universite("yildiz","gemi",345,65);
-        Universite u1 = new Universite("Ktu", "MakineMuh", 571, 93);
-        Universite u2 = new Universite("Bilkent", "matematik", 785, 65);
-        Universite u3 = new Universite("İstanbul", "hukuk", 1445, 71);
-        Universite u4 = new Universite("Marmara", "Bilgisayar", 1324, 78);
-        Universite u5 = new Universite("yildiz", "gemi", 345, 65);
+       //Universite u1 = new Universite();
+       //Universite u1 = new Universite("Ktu","MakineMuh",571,93);
+       //Universite u2 = new Universite("Bilkent","matematik",785,65);
+       //Universite u3 = new Universite("İstanbul","hukuk",1445,71);
+       //Universite u4 = new Universite("Marmara","Bilgisayar",1324,78);
+       //Universite u5 = new Universite("yildiz","gemi",345,65);
+       //Universite u1 = new Universite("Ktu", "MakineMuh", 571, 93);
+       //Universite u2 = new Universite("Bilkent", "matematik", 785, 65);
+       //Universite u3 = new Universite("İstanbul", "hukuk", 1445, 71);
+       //Universite u4 = new Universite("Marmara", "Bilgisayar", 1324, 78);
+       //Universite u5 = new Universite("yildiz", "gemi", 345, 65);
 
         List<Universite> unis = new ArrayList<>(Arrays.asList(u1,u2,u3,u4,u5));
         List<Universite> unis = new ArrayList<>(Arrays.asList(u1, u2, u3, u4, u5));
